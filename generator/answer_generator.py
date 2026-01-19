@@ -1,36 +1,27 @@
-from typing import List
-from generator.llm import call_llm
+from typing import List, Optional
+
+from generator.llm import LLM
 
 
-def generate_answer(chunks: List[str], query: str) -> str:
-    """Generate an answer strictly from the provided `chunks`.
+PROMPT_TEMPLATE = (
+    "You are a helpful, concise medical support assistant. Use the provided context and answer the question. "
+    "Cite sources by their `source_id` and `department` when relevant.\n\nContext:\n{context}\n\nQuestion:\n{question}\n\nAnswer:" 
+)
 
-    If the information required to answer `query` is not present in `chunks`,
-    the model must reply with the exact string: "Not found in documents".
-    """
-    # If no chunks, immediately return Not found
-    if not chunks:
-        return "Not found in documents"
 
-    # Build numbered context so model can refer to sources
-    numbered = []
-    for i, c in enumerate(chunks, 1):
-        numbered.append(f"[SOURCE {i}] {c}")
+def generate_answer(question: str, contexts: List[dict], llm: Optional[LLM] = None) -> dict:
+    """Generate an answer given retrieved contexts. If `llm` is None or no API key, fallback to concatenation."""
+    context_text = "\n\n".join([f"[{c.get('source_id')}] ({c.get('department')}) {c.get('text')}" for c in contexts])
 
-    system = (
-        "You are an assistant that must answer using ONLY the provided sources. "
-        "Do NOT hallucinate or use external knowledge. If the answer cannot be found in the sources, "
-        "respond exactly with: Not found in documents"
-    )
+    if llm is not None:
+        system = "You are a concise assistant answering hospital policy and services queries. Provide sources and be factual."
+        prompt = PROMPT_TEMPLATE.format(context=context_text, question=question)
+        out = llm.chat_completion(system, prompt)
+        if out is not None:
+            return {"answer": out, "used_llm": True, "sources": [c.get("source_id") for c in contexts]}
 
-    user = (
-        "Context:\n" + "\n---\n".join(numbered) + f"\n\nQuestion: {query}\n\n"
-        "Provide a concise answer and cite the source number(s) you used in square brackets."
-    )
+    # Fallback: combine top context snippets into a short answer
+    snippet = " \n\n ".join([c.get("text") for c in contexts[:3]])
+    ans = f"Based on retrieved documents: {snippet}"
+    return {"answer": ans, "used_llm": False, "sources": [c.get("source_id") for c in contexts]}
 
-    messages = [
-        {"role": "system", "content": system},
-        {"role": "user", "content": user},
-    ]
-
-    return call_llm(messages)

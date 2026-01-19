@@ -28,4 +28,4 @@ class Retriever:
             else:
                 docs.append(self.documents[int(i)])
 
-        return docs, dist_row
+        return docs, dist_row, idx_row
