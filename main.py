@@ -4,14 +4,14 @@ import numpy as np
 
 from utils.text_cleaner import clean_text
 from utils.chunker import chunk_text
-from utils.logger import get_logger
+import logging
 from embeddings.embedder import Embedder
 from embeddings.vector_store import VectorStore
 from retriever.retriever import Retriever
 from generator.answer_generator import generate_answer
 from explainability.explanation import explain
 
-logger = get_logger(__name__)
+logger = logging.getLogger(__name__)
 
 
 def build_rag(data_path: str = "data/knowledge.txt") -> Tuple[Embedder, Retriever]:
@@ -55,13 +55,10 @@ def query_rag(question: str, k: int = 3) -> Dict[str, Any]:
 
     Returns a dict with keys: `answer`, `sources`, `similarities`, `confidence`.
     """
-    if EMBEDDER is None or RETRIEVER is None:
-        raise RuntimeError("RAG system is not initialized")
+    global EMBEDDER, RETRIEVER
 
     if not question or not question.strip():
         return {"answer": "", "sources": [], "similarities": [], "confidence": 0.0}
-
-    global EMBEDDER, RETRIEVER
 
     # Lazy initialize heavy components on first query to allow the API to start without models
     if EMBEDDER is None or RETRIEVER is None:

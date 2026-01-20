@@ -1,0 +1,479 @@
+id,hospital,department,question,answer,keywords
+1,Poorna Multi Speciality Hospital,Administration,What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.","overview,multispeciality,services"
+2,Poorna Multi Speciality Hospital,Admissions,What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.","admission,process,inpatient"
+3,Poorna Multi Speciality Hospital,Billing,How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.","billing,finance,transparency"
+4,Poorna Multi Speciality Hospital,Emergency,How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.","emergency,triage,24x7"
+5,Poorna Multi Speciality Hospital,ICU,What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.","icu,critical care,monitoring"
+6,Poorna Multi Speciality Hospital,Cardiology,What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.","cardiology,heart,diagnostics"
+7,Poorna Multi Speciality Hospital,Neurology,How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.","neurology,stroke,emergency"
+8,Poorna Multi Speciality Hospital,Orthopedics,What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.","orthopedics,bone,joint"
+9,Poorna Multi Speciality Hospital,Gynecology,What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.","gynecology,women,obstetrics"
+10,Poorna Multi Speciality Hospital,Pediatrics,How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.","pediatrics,children,vaccination"
+11,Poorna Multi Speciality Hospital,Laboratory,How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.","laboratory,tests,reports"
+12,Poorna Multi Speciality Hospital,Radiology,What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.","radiology,imaging,diagnosis"
+13,Poorna Multi Speciality Hospital,Patient Rights,What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.","patient rights,ethics,consent"
+14,Poorna Multi Speciality Hospital,Support Services,What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.","support,physiotherapy,dietitian"
+15,Poorna Multi Speciality Hospital,Discharge,What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.","discharge,followup,summary"
+16,Poorna Multi Speciality Hospital,Telemedicine,How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.","telemedicine,online care,followup"
+17,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+18,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+19,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+20,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"
+21,Poorna Multi Speciality Hospital,ICU,In detail: What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","icu,critical care,monitoring"
+22,Poorna Multi Speciality Hospital,Cardiology,In detail: What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","cardiology,heart,diagnostics"
+23,Poorna Multi Speciality Hospital,Neurology,In detail: How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","neurology,stroke,emergency"
+24,Poorna Multi Speciality Hospital,Orthopedics,In detail: What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","orthopedics,bone,joint"
+25,Poorna Multi Speciality Hospital,Gynecology,In detail: What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","gynecology,women,obstetrics"
+26,Poorna Multi Speciality Hospital,Pediatrics,In detail: How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","pediatrics,children,vaccination"
+27,Poorna Multi Speciality Hospital,Laboratory,In detail: How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","laboratory,tests,reports"
+28,Poorna Multi Speciality Hospital,Radiology,In detail: What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","radiology,imaging,diagnosis"
+29,Poorna Multi Speciality Hospital,Patient Rights,In detail: What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","patient rights,ethics,consent"
+30,Poorna Multi Speciality Hospital,Support Services,In detail: What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","support,physiotherapy,dietitian"
+31,Poorna Multi Speciality Hospital,Discharge,In detail: What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","discharge,followup,summary"
+32,Poorna Multi Speciality Hospital,Telemedicine,In detail: How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","telemedicine,online care,followup"
+33,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+34,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+35,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+36,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"
+37,Poorna Multi Speciality Hospital,ICU,In detail: What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","icu,critical care,monitoring"
+38,Poorna Multi Speciality Hospital,Cardiology,In detail: What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","cardiology,heart,diagnostics"
+39,Poorna Multi Speciality Hospital,Neurology,In detail: How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","neurology,stroke,emergency"
+40,Poorna Multi Speciality Hospital,Orthopedics,In detail: What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","orthopedics,bone,joint"
+41,Poorna Multi Speciality Hospital,Gynecology,In detail: What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","gynecology,women,obstetrics"
+42,Poorna Multi Speciality Hospital,Pediatrics,In detail: How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","pediatrics,children,vaccination"
+43,Poorna Multi Speciality Hospital,Laboratory,In detail: How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","laboratory,tests,reports"
+44,Poorna Multi Speciality Hospital,Radiology,In detail: What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","radiology,imaging,diagnosis"
+45,Poorna Multi Speciality Hospital,Patient Rights,In detail: What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","patient rights,ethics,consent"
+46,Poorna Multi Speciality Hospital,Support Services,In detail: What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","support,physiotherapy,dietitian"
+47,Poorna Multi Speciality Hospital,Discharge,In detail: What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","discharge,followup,summary"
+48,Poorna Multi Speciality Hospital,Telemedicine,In detail: How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","telemedicine,online care,followup"
+49,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+50,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+51,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+52,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"
+53,Poorna Multi Speciality Hospital,ICU,In detail: What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","icu,critical care,monitoring"
+54,Poorna Multi Speciality Hospital,Cardiology,In detail: What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","cardiology,heart,diagnostics"
+55,Poorna Multi Speciality Hospital,Neurology,In detail: How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","neurology,stroke,emergency"
+56,Poorna Multi Speciality Hospital,Orthopedics,In detail: What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","orthopedics,bone,joint"
+57,Poorna Multi Speciality Hospital,Gynecology,In detail: What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","gynecology,women,obstetrics"
+58,Poorna Multi Speciality Hospital,Pediatrics,In detail: How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","pediatrics,children,vaccination"
+59,Poorna Multi Speciality Hospital,Laboratory,In detail: How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","laboratory,tests,reports"
+60,Poorna Multi Speciality Hospital,Radiology,In detail: What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","radiology,imaging,diagnosis"
+61,Poorna Multi Speciality Hospital,Patient Rights,In detail: What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","patient rights,ethics,consent"
+62,Poorna Multi Speciality Hospital,Support Services,In detail: What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","support,physiotherapy,dietitian"
+63,Poorna Multi Speciality Hospital,Discharge,In detail: What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","discharge,followup,summary"
+64,Poorna Multi Speciality Hospital,Telemedicine,In detail: How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","telemedicine,online care,followup"
+65,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+66,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+67,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+68,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"
+69,Poorna Multi Speciality Hospital,ICU,In detail: What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","icu,critical care,monitoring"
+70,Poorna Multi Speciality Hospital,Cardiology,In detail: What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","cardiology,heart,diagnostics"
+71,Poorna Multi Speciality Hospital,Neurology,In detail: How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","neurology,stroke,emergency"
+72,Poorna Multi Speciality Hospital,Orthopedics,In detail: What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","orthopedics,bone,joint"
+73,Poorna Multi Speciality Hospital,Gynecology,In detail: What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","gynecology,women,obstetrics"
+74,Poorna Multi Speciality Hospital,Pediatrics,In detail: How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","pediatrics,children,vaccination"
+75,Poorna Multi Speciality Hospital,Laboratory,In detail: How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","laboratory,tests,reports"
+76,Poorna Multi Speciality Hospital,Radiology,In detail: What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","radiology,imaging,diagnosis"
+77,Poorna Multi Speciality Hospital,Patient Rights,In detail: What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","patient rights,ethics,consent"
+78,Poorna Multi Speciality Hospital,Support Services,In detail: What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","support,physiotherapy,dietitian"
+79,Poorna Multi Speciality Hospital,Discharge,In detail: What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","discharge,followup,summary"
+80,Poorna Multi Speciality Hospital,Telemedicine,In detail: How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","telemedicine,online care,followup"
+81,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+82,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+83,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+84,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"
+85,Poorna Multi Speciality Hospital,ICU,In detail: What types of ICU facilities are available?,"Poorna Multi Speciality Hospital has well-equipped Intensive Care Units including Medical ICU, Surgical ICU, and High Dependency Units (HDU).
+Each ICU is managed by trained intensivists and critical care nurses with continuous patient monitoring.
+Facilities include ventilators, invasive monitoring, infusion pumps, dialysis support, and infection-controlled environments.
+Family communication is structured, and daily updates are provided by the treating team.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","icu,critical care,monitoring"
+86,Poorna Multi Speciality Hospital,Cardiology,In detail: What cardiac services are offered at the hospital?,"The Cardiology department at Poorna Multi Speciality Hospital provides evaluation and management of heart-related conditions including hypertension, coronary artery disease, heart failure, and arrhythmias.
+Services include ECG, 2D echocardiography, treadmill testing, Holter monitoring, and medical management.
+Patients receive lifestyle counseling, medication optimization, and long-term follow-up plans to prevent disease progression.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","cardiology,heart,diagnostics"
+87,Poorna Multi Speciality Hospital,Neurology,In detail: How are stroke and neurological emergencies managed?,"Neurological emergencies such as stroke, seizures, and acute weakness are managed under emergency stroke protocols.
+Rapid imaging, neurological assessment, and stabilization are prioritized.
+The neurology team coordinates with ICU, physiotherapy, and rehabilitation services to optimize recovery and reduce disability.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","neurology,stroke,emergency"
+88,Poorna Multi Speciality Hospital,Orthopedics,In detail: What orthopedic treatments and surgeries are available?,"The Orthopedics department at Poorna Multi Speciality Hospital treats fractures, arthritis, sports injuries, spine disorders, and joint degeneration.
+Management includes conservative therapy, physiotherapy, minimally invasive procedures, and surgical interventions.
+Post-operative rehabilitation and mobility training are integral parts of orthopedic care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","orthopedics,bone,joint"
+89,Poorna Multi Speciality Hospital,Gynecology,In detail: What women’s health services are provided?,"Gynecology services include menstrual disorder management, pregnancy care, infertility evaluation, menopause counseling, and gynecological surgeries.
+The department follows patient privacy, informed consent, and personalized care throughout diagnosis and treatment.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","gynecology,women,obstetrics"
+90,Poorna Multi Speciality Hospital,Pediatrics,In detail: How does the hospital care for children and newborns?,"The Pediatrics department provides comprehensive care for infants, children, and adolescents.
+Services include growth monitoring, vaccination, treatment of infections, and chronic disease management.
+Child-friendly environments and parental counseling ensure holistic pediatric care.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","pediatrics,children,vaccination"
+91,Poorna Multi Speciality Hospital,Laboratory,In detail: How are laboratory tests conducted and reported?,"Laboratory services at Poorna Multi Speciality Hospital follow strict quality control and biosafety standards.
+Samples are collected by trained technicians and processed using calibrated equipment.
+Reports are reviewed by qualified pathologists and made available digitally or in print within defined turnaround times.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","laboratory,tests,reports"
+92,Poorna Multi Speciality Hospital,Radiology,In detail: What imaging facilities are available?,"The Radiology department offers X-ray, ultrasound, CT scan, and other imaging services.
+Radiological investigations are interpreted by experienced radiologists and shared with treating physicians for accurate diagnosis and treatment planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","radiology,imaging,diagnosis"
+93,Poorna Multi Speciality Hospital,Patient Rights,In detail: What rights do patients have during treatment?,"Patients at Poorna Multi Speciality Hospital have the right to respectful care, informed consent, privacy, confidentiality, and clear information regarding diagnosis and treatment.
+Patients can ask questions, seek second opinions, and access their medical records.
+The hospital ensures ethical medical practices and grievance redressal mechanisms.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","patient rights,ethics,consent"
+94,Poorna Multi Speciality Hospital,Support Services,In detail: What allied health and support services are available?,"Support services include physiotherapy, dietetics, psychological counseling, pharmacy, and social work.
+These services work collaboratively with doctors to enhance recovery, nutrition, mental well-being, and post-discharge planning.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","support,physiotherapy,dietitian"
+95,Poorna Multi Speciality Hospital,Discharge,In detail: What is included in the discharge process?,"The discharge process includes a medical summary, medication instructions, follow-up schedule, dietary advice, and warning signs.
+Patients receive counseling on home care and medication adherence.
+Discharge is finalized only after clinical clearance and billing settlement.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","discharge,followup,summary"
+96,Poorna Multi Speciality Hospital,Telemedicine,In detail: How does telemedicine support follow-up care?,"Telemedicine at Poorna Multi Speciality Hospital enables patients to consult doctors remotely for follow-ups, report reviews, and medication adjustments.
+It improves continuity of care, especially for elderly patients and those living far from the hospital.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","telemedicine,online care,followup"
+97,Poorna Multi Speciality Hospital,Administration,In detail: What services does Poorna Multi Speciality Hospital provide as a multi speciality hospital?,"Poorna Multi Speciality Hospital is a comprehensive multi speciality healthcare institution offering preventive, diagnostic, curative, surgical, and rehabilitative services. 
+The hospital integrates outpatient care, inpatient services, emergency medicine, intensive care, advanced diagnostics, and specialty clinics under one roof. 
+Key specialties include Cardiology, Neurology, Orthopedics, Gynecology, Pediatrics, General Medicine, General Surgery, Oncology support, Nephrology, Pulmonology, ENT, Dermatology, and Endocrinology. 
+The hospital follows evidence-based clinical protocols, patient-centered care models, and multidisciplinary treatment planning to ensure quality outcomes.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","overview,multispeciality,services"
+98,Poorna Multi Speciality Hospital,Admissions,In detail: What is the complete admission process for inpatients?,"The inpatient admission process at Poorna Multi Speciality Hospital begins with a doctor’s recommendation or emergency triage decision. 
+Patients or attendants must complete registration at the admissions counter by submitting valid ID proof, insurance details (if applicable), and prior medical records.
+A bed is allocated based on availability and clinical requirement (general ward, semi-private, private, ICU).
+Consent forms, financial counseling, and advance estimates are explained before admission. 
+Emergency admissions bypass routine formalities initially, which are completed once the patient is stabilized.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","admission,process,inpatient"
+99,Poorna Multi Speciality Hospital,Billing,In detail: How is hospital billing calculated and explained to patients?,"Billing at Poorna Multi Speciality Hospital is transparent and itemized. Charges include consultation fees, bed charges, nursing care, procedures, investigations, medicines, consumables, and professional fees.
+For planned procedures, an approximate cost estimate is shared in advance. Final billing may vary based on length of stay, complications, or additional interventions.
+Patients receive interim bills for long stays and a detailed discharge summary with a final bill. Billing counselors are available to clarify any charges.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","billing,finance,transparency"
+100,Poorna Multi Speciality Hospital,Emergency,In detail: How does the emergency department function 24/7?,"The Emergency Department at Poorna Multi Speciality Hospital operates 24/7 with trained emergency physicians, nurses, and rapid-response teams.
+Patients are triaged based on severity using standardized triage protocols. Life-threatening cases receive immediate attention.
+Emergency services include trauma care, cardiac emergencies, stroke management, poisoning, acute infections, and respiratory distress.
+On-call specialists, imaging, laboratory services, blood bank, and operating theatres are available round the clock.
+
+This detailed explanation is structured to support AI-based retrieval, clinical reasoning, and patient education within hospital information systems.","emergency,triage,24x7"

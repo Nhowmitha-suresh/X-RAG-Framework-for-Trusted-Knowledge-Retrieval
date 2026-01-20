@@ -1,13 +1,15 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from typing import Optional
+from typing import Optional, Any
 
 from data.load_index import load_index
 from retriever.retriever import Retriever
 from retriever.reranker import rerank_by_cosine
 from generator.llm import LLM
 from generator.answer_generator import generate_answer
+from embeddings.embedder import Embedder
 
+from main import query_rag
 
 router = APIRouter()
 
@@ -25,7 +27,6 @@ def query(req: QueryRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
     retriever = Retriever(vs, [m["text"] for m in metadata])
-    from embeddings.embedder import Embedder
 
     import os
     vectorizer_path = os.path.join("data", "index", "vectorizer.pkl")
@@ -46,21 +47,14 @@ def query(req: QueryRequest):
     result = generate_answer(req.query, contexts, llm=llm)
     result.update({"retrieved": contexts})
     return result
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
-from typing import Any
-
-from main import query_rag
-
-router = APIRouter()
 
 
-class Query(BaseModel):
+class AskRequest(BaseModel):
     question: str
 
 
 @router.post("/ask")
-def ask_rag(query: Query) -> Any:
+def ask_rag(query: AskRequest) -> Any:
     try:
         return query_rag(query.question)
     except Exception as e:

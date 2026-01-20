@@ -16,6 +16,8 @@ class LLM:
         self.openai_key = api_key or os.environ.get("OPENAI_API_KEY")
         self.google_key = os.environ.get("GOOGLE_API_KEY")
         self.model = model
+        # Allow overriding Google model via env var (e.g., GEMINI_MODEL or GOOGLE_MODEL)
+        self.google_model = os.environ.get("GEMINI_MODEL") or os.environ.get("GOOGLE_MODEL") or "text-bison"
 
         if self.openai_key:
             openai.api_key = self.openai_key
@@ -32,9 +34,8 @@ class LLM:
             return resp["choices"][0]["message"]["content"].strip()
 
         if self.google_key:
-            # Use Google Generative Language REST endpoint for text generation (v1beta2)
-            # Default model name for text: text-bison
-            model_name = "text-bison"
+            # Use Google Generative API endpoint for configured model (supports Gemini/text-bison)
+            model_name = self.google_model
             url = f"https://generativelanguage.googleapis.com/v1beta2/models/{model_name}:generate?key={self.google_key}"
             prompt = f"System: {system}\nUser: {user_prompt}"
             body = {

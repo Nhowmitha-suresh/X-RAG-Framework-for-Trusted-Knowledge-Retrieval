@@ -1,11 +1,4 @@
 import streamlit as st
-
-from data.load_index import load_index
-from retriever.retriever import Retriever
-from retriever.reranker import rerank_by_cosine
-from generator.llm import LLM
-from generator.answer_generator import generate_answer
-import streamlit as st
 import subprocess
 import os
 from typing import Optional
@@ -16,8 +9,11 @@ from retriever.reranker import rerank_by_cosine
 from generator.llm import LLM
 from generator.answer_generator import generate_answer
 
+# Must call set_page_config before any other Streamlit commands
+st.set_page_config(page_title="Hospital RAG", layout="wide")
 
-@st.cache(allow_output_mutation=True)
+
+@st.cache_resource
 def load_resources(index_dir: str = "data/index"):
     vs, metadata = load_index(index_dir)
     docs = [m["text"] for m in metadata]
@@ -35,7 +31,6 @@ def run_ingest(csv_path: str, out_dir: str = "data/index") -> str:
 
 
 def main():
-    st.set_page_config(page_title="Hospital RAG", layout="wide")
     st.title("Hospital RAG — Demo UI")
 
     # Sidebar: ingestion and settings
@@ -58,7 +53,7 @@ def main():
         if not csv_to_use:
             st.sidebar.error("Provide a CSV by upload or path to ingest")
         else:
-            with st.sidebar.spinner("Running ingestion..."):
+            with st.spinner("Running ingestion..."):
                 out = run_ingest(csv_to_use, out_dir="data/index")
             st.sidebar.success("Ingestion finished")
             st.sidebar.text_area("Ingest log", out, height=200)
