@@ -60,17 +60,7 @@ An Explainable Retrieval-Augmented Generation (X-RAG) framework that delivers ac
 ## 🚀 How to Run Locally
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/hospital-rag-demo.git
-
-# Navigate to project directory
-cd hospital-rag-demo
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python app.py
-
-
-
+1. Clone the repository
+2. Navigate to project directory
+3. Install dependencies
+4. Run the application
